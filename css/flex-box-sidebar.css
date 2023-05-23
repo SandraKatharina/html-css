@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+#left {
+    background-color: tan;
+    width: 300px;
+}
+main {
+    color: teal;
+    width: 60%;
+    height: 100vh;
+    overflow: scroll;
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    scrollbar-color: rgb(216, 17, 153) white;
+}
+aside {
+    background-color: rosybrown;
+    width: 300px;
+    
+}
+

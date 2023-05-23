@@ -1,0 +1,14 @@
+body {
+    background-color: blueviolet;
+    font-size: 30px;
+}
+ul {
+    color: white;
+    list-style-type: none;
+    li {
+        font-weight: bold;
+        &.active {
+            color:aqua;
+        }        
+    }
+}

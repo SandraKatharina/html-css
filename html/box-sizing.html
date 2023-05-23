@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Sizing</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        div {
+            width: 200px;
+            height: 200px;
+            padding: 10px;
+            border: solid grey;
+            margin: 0 0 10px;
+        }
+        body div:first-child {
+            box-sizing: content-box;
+            overflow: scroll;
+        }
+    </style>
+</head>
+<body>
+   <div>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officiis aliquam nostrum cumque temporibus beatae corrupti laboriosam sunt voluptates quisquam vel vero ipsam dolorem tenetur quis quam, in cupiditate ut?
+   </div> 
+   <div>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam necessitatibus sapiente, quidem, ad ipsum impedit voluptas non id inventore accusantium tempora nam. Quibusdam impedit quasi ut ullam eos, qui beatae! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum maiores optio consectetur, non, minus ipsa labore voluptates repudiandae minima quaerat perspiciatis ab quis dolorem magni amet illo nam reiciendis ut.
+   </div>
+</body>
+</html>

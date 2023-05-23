@@ -1,0 +1,160 @@
+body {
+    position: relative;
+    background-color: darkgreen;
+}
+
+div ul {
+    height: 100px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    border-bottom: solid 2px blanchedalmond;
+    z-index: 40;
+}
+
+div#logo {
+    background-color: saddlebrown;
+    display: flex;
+    width: 120px;
+    height: 100px;
+    position: fixed;
+}
+
+div#logo a {
+    color: slateblue;
+}
+
+
+ul {
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    background-color: slateblue;
+    top: 0;
+    left: 120px;
+    position: fixed;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: solid 2px blanchedalmond;
+    z-index: 50;
+
+}
+
+ul li:last-child {
+    padding-right: 170px;
+}
+a {
+    text-decoration: none;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: saddlebrown;
+}
+
+#menu {
+    display: none;
+}
+
+aside {
+    width: 120px;
+    height: 100vh;
+    background-color: saddlebrown;
+    position: fixed;
+    top: 100px;
+}
+
+main {
+    width: 80vw;
+    height: 90vw;
+    position: absolute;
+    left: 170px;
+    top: 160px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blanchedalmond;
+    overflow: scroll;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+p {
+    font-size: 18px;
+}
+
+img {
+    width: 40%;
+    float: right;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+
+a:hover {
+    cursor: pointer;
+    color: blanchedalmond;
+}
+li {
+    position: relative;
+}
+
+li div#printed {
+    background-color: blanchedalmond;
+    width: 150px;
+    height: 120px;
+    position: absolute;
+    top: 62px;
+    left: 14px;
+    display: none;
+    transition: all 1s ease-in-out;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:750px) {
+    ul {
+        background-color: saddlebrown;
+    }
+
+    ul li {
+        display: none;
+    }
+
+    aside {
+        display: none;
+    }
+
+    main {
+        left: 50px;
+    }
+
+    #logo {
+        background-color: saddlebrown;
+    }
+
+    a {
+        color: slateblue;
+    }
+
+    img {
+        width: 60%;
+        margin-bottom: 25px;
+        margin-left: 0;
+        float: none;
+    }
+
+}

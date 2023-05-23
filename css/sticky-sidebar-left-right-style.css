@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+main {
+    width: 40%;
+    height: 600px;
+    margin: auto;
+    overflow: scroll;
+    font-size: 48px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p ::-webkit-scrollbar {
+    width: 50em;
+}
+::-webkit-scrollbar-track {
+    background-color: hsl(120, 75%, 50% / 1);
+}
+#menu-left {
+    position: fixed;
+    width: 300px;
+    height: 100vh;
+    background-color: cadetblue;
+}
+#menu-right {
+    width: 300px;
+    height: 100vh;
+    background-color: burlywood;
+    right: 0;
+}
+

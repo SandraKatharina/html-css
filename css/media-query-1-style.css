@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding:
+}
+
+#top {
+    background-color: yellow;
+    width: 50vw;
+    height: 100vh;
+}
+
+div {
+    background-color: chocolate;
+    width: 50vw;
+    height: 100vh;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        flex-direction: column;
+    }
+    #top {
+        width: 100vw;
+        height: 50vh;  
+    }
+    div {
+        width: 100vw;
+        height: 50vh; 
+    }
+}

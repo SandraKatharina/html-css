@@ -1,0 +1,35 @@
+div {  
+    border: solid 1px black;
+}
+
+#container {
+    border: 0px;
+    margin: 0 auto;
+    width: 50%;
+
+}
+
+#square1 {
+    width: 100px;
+    height: 100px;
+}
+
+#square2 {
+    width: 10%;
+    height: 10%;
+}
+
+#square3 {
+    width: 10rem;
+    height: 10rem;
+}
+
+#square4 {
+    width: 10em;
+    height: 10em;
+}
+
+#square5 {
+    width: 10vh;
+    height: 10vh;
+}

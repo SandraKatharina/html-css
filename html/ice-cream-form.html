@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice-Cream Form</title>
+</head>
+<body>
+    <h1>Make your Ice- Cream order</h1>
+    <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="get">
+        <label for="container">chose your container:</label>
+        <select name="containers" id="containers">
+            <option value="cone">Cone</option>
+            <option value="cup">Cup</option>
+        </select>
+        <br />
+        <br />
+        <label for="scoops">how many scoops do you want:</label>
+        <input type="text" name="">
+        <input type="checkbox" id="gusto1" name="gusto1" value="Stracciatella">
+        <label for="gusto1">Stracciatella</label><br />
+        <input type="checkbox" id="gusto2" name="gusto2" value="Amarena">
+        <label for="gusto2">Amarena</label><br />
+        <input type="checkbox" id="gusto3" name="gusto3" value="Pistacchio">
+        <label for="gusto3">Pistacchio</label><br />
+        <input type="submit" />
+    </form>
+    
+</body>
+</html>

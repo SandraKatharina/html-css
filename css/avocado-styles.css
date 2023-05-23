@@ -1,0 +1,28 @@
+body {
+    background-color: blanchedalmond;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#container {
+    margin: 0 auto;
+    width: 50%;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    color: green;
+    font-size: 100px;
+    font-variant-caps: titling-caps;
+}
+.ingridients {
+    background-color: green;
+    border: 0px solid;
+    border-radius: 5px;
+    color: blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

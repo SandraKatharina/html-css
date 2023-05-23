@@ -1,0 +1,18 @@
+div {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+header {
+    height: 300px;
+    background-color: hotpink;
+}
+main {
+    height: 80vh;
+    width: 60vw;
+    overflow: scroll;
+    font-size: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: indigo;
+    background-color: bisque;
+}

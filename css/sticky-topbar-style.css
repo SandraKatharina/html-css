@@ -1,0 +1,31 @@
+html {
+    background-color: brown;
+}
+header {
+    height: 200px;
+    width: 100vw;
+    background-color: blanchedalmond;
+    margin-bottom: 50px;
+
+}
+main {
+    margin: 0 auto;
+    width: 60%;
+}
+p {
+    font-size: 36px;
+    color: darkseagreen;
+    overflow: scroll;
+    box-sizing: border-box;
+    height: 500px;
+    width: auto;
+    scrollbar-color: blue brown;
+    scrollbar-width: 20em;
+}
+::-webkit-scrollbar {
+  width: 30em;
+}
+::-webkit-scrollbar-track {
+    width: 40em;
+}
+

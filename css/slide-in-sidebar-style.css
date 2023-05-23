@@ -1,0 +1,24 @@
+
+aside {
+    width: 300px;
+    height: 100vh;
+    background-color:midnightblue;
+    position: absolute;
+    left: -280px;
+    transition: all 1s ease-in-out;
+    transform: rotateX('90deg');
+}
+aside:hover {
+    background-color: mediumpurple;
+    cursor: pointer;
+    left: 0;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 50px;
+}

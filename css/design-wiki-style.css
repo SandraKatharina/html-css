@@ -1,0 +1,105 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: cadetblue;
+}
+
+nav {
+    height: 100px;
+    background-color: indigo;
+    position: fixed;
+    z-index: 10;
+    width: 100vw;
+}
+
+aside {
+    position: fixed;
+    width: 120px;
+    height: 100vh;
+    background-color: olivedrab;
+}
+
+img {
+    max-width: 30vw;
+    float: inline-end;
+    padding: 0 0 0 30px;
+}
+
+main {
+    height: 100vh;
+    width: 80vw;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    overflow: scroll;
+}
+
+h1 {
+    font-size: 48px;
+    padding: 0 0 30px;
+}
+
+h2 {
+    font-size: 24px;
+    padding: 0 0 30px;
+}
+
+div {
+    width: 70vw;
+}
+
+p {
+    padding: 10px 0 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: cadetblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+@media screen and (max-width:700px) {
+    aside {
+        display: none;
+    }
+
+    main {
+        left: 10px;
+        width: 90vw;
+    }
+
+    img {
+        float: none;
+        max-width: 60vw;
+    }
+
+    ul li {
+        display: none;
+    }
+
+    .mobile {}
+
+    #logo {
+        position: fixed;
+        color: olivedrab;
+        background-color: indigo;
+    }
+
+    #menu {
+        width: 92vw;
+        height: 100px;
+        position: fixed;
+        z-index: 11;
+        color: olivedrab;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        float: right;
+    }
+
+}
